@@ -9,7 +9,7 @@ const ranges = player.querySelectorAll('.player__slider');
 
 const volume=ranges[0];
 const playback=ranges[1];
-const rewind=skipButtons[0];
+const rewind=document.querySelector('.rewind');
 const plus25=skipButtons[1];
 const body=document.querySelector('body')
 
